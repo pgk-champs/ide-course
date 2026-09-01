@@ -1,0 +1,7 @@
+type: edu
+custom_name: Секунды в таймер
+files:
+  - name: test/Tests.kt
+    visible: false
+  - name: src/Solution.kt
+    visible: true

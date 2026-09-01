@@ -1,0 +1,6 @@
+custom_name: Основы Kotlin
+content:
+  - lesson1_variables
+  - lesson2_functions
+  - lesson3_classes
+  - lesson4_project

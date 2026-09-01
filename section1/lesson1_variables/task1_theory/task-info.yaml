@@ -1,0 +1,5 @@
+type: theory
+custom_name: Конспект — переменные и типы
+files:
+  - name: src/Notes.kt
+    visible: true

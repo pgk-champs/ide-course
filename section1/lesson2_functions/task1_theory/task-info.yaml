@@ -1,0 +1,5 @@
+type: theory
+custom_name: Конспект — функции и лямбды
+files:
+  - name: src/Notes.kt
+    visible: true

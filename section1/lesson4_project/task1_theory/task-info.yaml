@@ -1,0 +1,5 @@
+type: theory
+custom_name: Конспект — собираем всё вместе
+files:
+  - name: src/Notes.kt
+    visible: true
