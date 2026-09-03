@@ -14,6 +14,18 @@ https://pgk-champs.github.io/platform/
 
 ## Как студенту установить и открыть курс
 
+Перед началом нужен установленный **JDK 21** — например
+[Eclipse Temurin](https://adoptium.net/): скачай и поставь, как обычную
+программу. Это та же версия, что в практикумах
+`track-mobile-01-kotlin-basics` и `track-mobile-02-collections` и в их
+автопроверке на GitHub Actions, — держим одну на все репозитории, чтобы не
+ставить две. Android Studio и IntelliJ IDEA приносят свою JVM и обычно
+справляются сами, но для `./gradlew test` из терминала JDK нужен отдельно.
+
+(В `course-info.yaml` указан уровень языка `JDK_17` — это настройка проекта
+для плагина, а не требование ставить именно 17-ю версию: в `build.gradle.kts`
+версия JVM не зафиксирована, курс собирается тем JDK, которым запущен Gradle.)
+
 1. **Установи плагин.** В Android Studio или IntelliJ IDEA:
    `Settings/Preferences → Plugins → Marketplace` → в поиске введи
    **JetBrains Academy** → Install → перезапусти IDE.
@@ -97,6 +109,8 @@ section1/
 ## Платформа
 
 Полный курс (теория, тренажёры, разбор по символам) — на
-https://pgk-champs.github.io/platform/. Задачи здесь — по мотивам практик
+https://pgk-champs.github.io/platform/ (уроки 1–3 соответствуют главам
+`/docs/mobile/kotlin-vars`, `/docs/mobile/functions-lambdas` и
+`/docs/mobile/classes-collections`). Задачи здесь — по мотивам практик
 `track-mobile-01`/`track-mobile-02`, но не дословно: домены и формулировки
 другие, чтобы решения одного формата не гуглились по другому.
